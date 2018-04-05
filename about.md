@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Max, I work as an X++ developer in MS Russia
 
-### More Information
+### Links
 
-A place to include any other types of information that you'd like to include about yourself.
+  - http://axcoder.blogspot.com -- my X++ blog.
+  - http://erpkb.info - ERP knowledge base
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[beluin@outlook.com](mailto:belugin@outlook.com)
