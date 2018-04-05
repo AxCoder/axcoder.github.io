@@ -8,8 +8,8 @@ My name is Max, I work as an X++ developer in MS Russia
 
 ### Links
 
-  - http://axcoder.blogspot.com -- my X++ blog.
-  - http://erpkb.info - ERP knowledge base
+  - [my X++ blog](http://axcoder.blogspot.com)
+  - [ERP knowledge base](http://erpkb.info) 
 
 ### Contact me
 
