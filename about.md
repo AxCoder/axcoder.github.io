@@ -13,4 +13,4 @@ My name is Max, I work as an X++ developer in MS Russia
 
 ### Contact me
 
-[beluin@outlook.com](mailto:belugin@outlook.com)
+[belugin@outlook.com](mailto:belugin@outlook.com)
