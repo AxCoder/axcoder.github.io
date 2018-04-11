@@ -8,6 +8,6 @@ comments: true
 
 I like it because it uses markdown so I can easilly edit it offline and use version control.
 
-``` x++
-info("@AxCoder:HelloWorld");
+``` Axapta
+info("s");
 ```
