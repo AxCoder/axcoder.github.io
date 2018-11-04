@@ -3,7 +3,6 @@ layout: post
 title: Using Perfview in Dynamics 365 for Finance and Operations
 comments: true
 ---
-## Using Perfview in Dynamics 365 for Finance and Operations
 
 [PerfView](https://github.com/Microsoft/perfview) is my favorite .NET profiling tool.  
 
