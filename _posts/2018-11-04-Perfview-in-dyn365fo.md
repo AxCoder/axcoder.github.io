@@ -4,7 +4,7 @@ title: Using Perfview in Dynamics 365 for Finance and Operations
 comments: true
 ---
 
-[PerfView](https://github.com/Microsoft/perfview) is my favorite .NET profiling tool.  
+[PerfView](https://github.com/Microsoft/perfview) is my favorite .NET profiling tool. It uses [ETW](https://docs.microsoft.com/en-us/windows/desktop/etw/event-tracing-portal) to collect performance data. 
 
 Why do I like it:
   
@@ -44,3 +44,4 @@ The main sequence of steps to collect data is following. I hope I will cover eac
  - PerfView has embedded html documentation.
  - Channel 9 contains old, but very usefull series of videos on PerfView - [PerfView tutorial](https://channel9.msdn.com/Series/PerfView-Tutorial)
  - [Excelent video](https://www.youtube.com/watch?v=eX644hod65s) by Sasha Goldshtein from DotNext SpB
+ - [Using ETW](https://randomascii.wordpress.com/2011/08/29/powerpoint-poor-performance-problem/) to profile and fix PowerPoint presentation 
