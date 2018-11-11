@@ -11,7 +11,7 @@ The overall plan is:
   2. Select what to trace (trace CPU for CPU-bound tasks, trace thread time otherwise)
   3. Record the trace
 
-  ### Preparing the scenario
+### Preparing the scenario
 
 First of all, we need to prepare data. Perfview collects samples of callstak, the more samples to collect, the more precise statistics you will get, but trace file will be bigger. Therefore I usually prefer scenarios with duration about 1-2 mins. 
 
