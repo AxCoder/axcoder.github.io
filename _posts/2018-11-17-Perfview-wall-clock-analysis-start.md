@@ -2,7 +2,6 @@
 layout: post
 title: Perfview in Dyn365FO. Part 3: Wall clock analysis
 comments: true
-tags: [PerfView, performance]
 ---
 
 See the [First part]({{ site.baseurl }}{% post_url 2018-11-04-Perfview-in-dyn365fo %}) for the introduction and a list of posts.
