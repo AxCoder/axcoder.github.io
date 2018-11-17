@@ -7,7 +7,14 @@ tags: [PerfView, performance]
 
 [PerfView](https://github.com/Microsoft/perfview) is my favorite .NET profiling tool. It uses [ETW](https://docs.microsoft.com/en-us/windows/desktop/etw/event-tracing-portal) to collect performance data. 
 
-Why do I like it:
+This post starts series on working with it for Dynamics 365 for Finance and Operation optimization tasks.
+
+Currently we have following posts:
+  1. Introduction - this post
+  2. [Collectiong a trace]({{ site.baseurl }}{% post_url 2018-11-11-Perfview-collecting-trace %})
+
+
+Why do I like PerfView:
   
   1. It it is very flexible: it can answers questions like "what are the most resource consuming functions from the code under my control", "what are the most consuming function from modules that are level below", etc.
 
