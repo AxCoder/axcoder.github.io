@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Perfview in Dyn365FO. Part 2: Collecting a trace
+title: Perfview in Dyn365FO. Part 2 - Collecting a trace
 comments: true
 ---
 

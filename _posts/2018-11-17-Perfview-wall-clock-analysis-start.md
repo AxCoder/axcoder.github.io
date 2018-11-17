@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Perfview in Dyn365FO. Part 3: Wall clock analysis
+title: Perfview in Dyn365FO. Part 3 - Wall clock analysis
 comments: true
 ---
 
