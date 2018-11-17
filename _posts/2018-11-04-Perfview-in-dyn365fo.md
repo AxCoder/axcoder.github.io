@@ -11,7 +11,7 @@ This post starts series on working with it for Dynamics 365 for Finance and Oper
 
 Currently we have following posts:
   1. Introduction - this post
-  2. [Collectiong a trace]({{ site.baseurl }}{% post_url 2018-11-11-Perfview-collecting-trace %})
+  2. [Collecting a trace]({{ site.baseurl }}{% post_url 2018-11-11-Perfview-collecting-trace %})
 
 
 Why do I like PerfView:
