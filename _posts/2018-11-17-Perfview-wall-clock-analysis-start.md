@@ -3,6 +3,7 @@ layout: post
 title: Perfview in Dyn365FO. Part 3 - Wall clock analysis
 comments: true
 ---
+How to analyze actual time thread spend working or waiting for other threads.
 
 See the [First part]({{ site.baseurl }}{% post_url 2018-11-04-Perfview-in-dyn365fo %}) for the introduction and a list of posts.
 

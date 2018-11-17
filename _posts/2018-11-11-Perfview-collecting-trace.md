@@ -3,10 +3,9 @@ layout: post
 title: Perfview in Dyn365FO. Part 2 - Collecting a trace
 comments: true
 ---
+The first step in working with PerfView is collecting data.
 
 See the [First part]({{ site.baseurl }}{% post_url 2018-11-04-Perfview-in-dyn365fo %}) for the introduction and a list of posts.
-
-The first step in working with PerfView is collecting data. 
 
 The overall plan is:
   1. Prepare the scenario (use ~1-2 mins long period)
