@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Presets>
+  <Preset>Name=ER-&gt;Other$$$$GroupPat=Microsoft.Dynamics365.{*}!{*}-&gt;D365.$1.$2;dynamics.ax.applicationsuite!Dynamics.Ax.Application.{*}-&gt;AppSuite.$1;dynamics.ax.electronicreporting{*}!Dynamics.Ax.Application.{*}-&gt;ER$1.$2;!-&gt;Other$$$$FoldPercentage=$$$$FoldPat=ntoskrnl!%ServiceCopyEnd;System.Runtime.CompilerServices.Async%MethodBuilder;^STARTING TASK$$$$Comment=</Preset>
+  <Preset>Name=ER=&gt;Other$$$$GroupPat=Microsoft.Dynamics365.{*}!{*}-&gt;D365.$1.$2;dynamics.ax.applicationsuite!Dynamics.Ax.Application.{*}-&gt;AppSuite.$1;dynamics.ax.electronicreporting{*}!Dynamics.Ax.Application.{*}-&gt;ER$1.$2;!=&gt;Other$$$$FoldPercentage=$$$$FoldPat=ntoskrnl!%ServiceCopyEnd;System.Runtime.CompilerServices.Async%MethodBuilder;^STARTING TASK$$$$Comment=</Preset>
+</Presets>
