@@ -67,7 +67,7 @@ I have 2 presets:
 
 ##### Grouping syntax
 
-This is my example [download presets file](/assets/ER_PerfViewPresets.xml)
+This is my example ([download presets file](/assets/ER_PerfViewPresets.xml))
 
     [ER=>Other] Microsoft.Dynamics365.{*}!{*}->D365.$1.$2;dynamics.ax.applicationsuite!Dynamics.Ax.Application.{*}->AppSuite.$1;dynamics.ax.electronicreporting{*}!Dynamics.Ax.Application.{*}->ER$1.$2;!=>Other
 
