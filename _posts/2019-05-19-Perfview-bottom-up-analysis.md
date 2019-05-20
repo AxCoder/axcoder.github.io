@@ -41,7 +41,7 @@ Therefore:
 #### Quick demo
 
 I want to profile and found of bottleneck in the loading of moodel mapping designer
-1. I collect a trace [First part]({{ site.baseurl }}{% post_url 2018-11-17-Perfview-wall-clock-analysis-start %})
+1. I collect a trace [for the wall-clock analysis]({{ site.baseurl }}{% post_url 2018-11-17-Perfview-wall-clock-analysis-start %})
 2. I open the trace, select w3wp process and open the "Thread Time" view
 3. I select "No grouping" in "group pats" and try to find thread in the "CallTree" tab: just enter "modelmapping" in the "Find" input box:
 ![Finding thread](/assets/perfview-finding-thread.png)
