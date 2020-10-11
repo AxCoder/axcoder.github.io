@@ -68,17 +68,22 @@ I have 2 presets:
 ##### Grouping syntax
 
 This is my example ([download presets file](/assets/ER_PerfViewPresets.xml))
-
-    [ER=>Other] Microsoft.Dynamics365.{*}!{*}->D365.$1.$2;dynamics.ax.applicationsuite!Dynamics.Ax.Application.{*}->AppSuite.$1;dynamics.ax.electronicreporting{*}!Dynamics.Ax.Application.{*}->ER$1.$2;!=>Other
-
+```
+  [ER=>Other] Microsoft.Dynamics365.{*}!{*}->D365.$1.$2;dynamics.ax.applicationsuite!Dynamics.Ax.Application.{*}->AppSuite.$1;dynamics.ax.electronicreporting{*}!Dynamics.Ax.Application.{*}->ER$1.$2;!=>Other
+```
 Explanation: 
-  [ER=>Other] - a name of preset
+  
+  "[ER=>Other]" - a name of the preset
   
   After the name goes sequence of grouping instructions, each intruction groups some type of paths and after that result is processed by the next instruction.
 
   Grouping instructions are in the following form: 
 
-    Microsoft.Dynamics365.{*}!{*}->D365.$1.$2;
+```
+Microsoft.Dynamics365.{*}!{*}->D365.$1.$2;
+```
+
+  where:
    - "Microsoft.Dynamics365." - this is just a string to match
     - {\*} - is like a .* regex matches any sequence of any symbol
    - ! - in the method path it delimits module (dll) name and a method name
@@ -90,8 +95,3 @@ So if this intruction will meet string Microsoft.Dynamics365.Application!MyClass
 Take into account that result does not contain the ! symbol so the alsready grouped strings will not be processed by the subsequent instructions.
 
 The last instruction !=>Other will take all previously onprocessed strings and put it to groups by entry points (or to the single group named "Other" in case of !->Other)
-
-
-
-
-
