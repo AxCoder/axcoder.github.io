@@ -33,7 +33,7 @@ Also take into account, that possibly you need to measure warm run (so run scena
 #### Collection from the command line
 
 You can instruct perfview to collect trace from the command line. For example below is a simple PowerShell script that I use for collecting thread time trace. It starts collection, builds a trace name from a timestamp,
-and stops collection when Electroinic Reporting finishes format generation (it detects it using windows event log monitoring).
+and stops collection when Electroinic Reporting finishes format generation (it detects the moment using windows event log monitoring).
 
 ~~~
 c:\programs\PerfView collect "e:\traces\$(date -format "ddMMyyyy_hhmm").etl" `
