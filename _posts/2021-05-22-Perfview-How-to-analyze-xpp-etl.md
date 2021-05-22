@@ -45,7 +45,7 @@ Do the following steps on a machine with Dyn365FO installed:
 1. Setup columns to display: 
    ```FormattedMessage methodName sqlStatement *``` (where * means "all other columns" )
 2. Filter events by text. Unfortunately Perfview shows limited number of events (MaxRet input box). We can reduce number of viewed events by:
-   - excluding venet types from the left pane
+   - excluding event types from the left pane
    - filtering by text (Text Filter)
    - limiting by time range (Start, End)
 3. After finding a time range where happens something that we are interested in, we can remove Text Filter and set Start and End instead. 
