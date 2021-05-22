@@ -49,6 +49,6 @@ Do the following steps on a machine with Dyn365FO installed:
    - filtering by text (Text Filter)
    - limiting by time range (Start, End)
 3. After finding a time range where happens something that we are interested in, we can remove Text Filter and set Start and End instead. 
-4. We can also use text filter to filter by activity id (since TraceParses catches all the session on the same AOS)
+4. We can also use text filter to filter by activity id (since TraceParser catches all the session on the same AOS)
 
 
