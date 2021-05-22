@@ -13,6 +13,7 @@ Currently we have following posts:
   2. [Collecting a trace]({{ site.baseurl }}{% post_url 2018-11-11-Perfview-collecting-trace %})
   3. [Wall clock analysis start]({{ site.baseurl }}{% post_url 2018-11-17-Perfview-wall-clock-analysis-start %})
   4. [Bottom-up analysis]({{ site.baseurl }}{% post_url 2019-05-19-Perfview-bottom-up-analysis %})
+  5. [How to analyze X++ etl in perfview]({{ site.baseurl }}{% post_url 2021-05-22-Perfview-How-to-analyze-xpp-etl %})
 
 
 Why do I like PerfView:
