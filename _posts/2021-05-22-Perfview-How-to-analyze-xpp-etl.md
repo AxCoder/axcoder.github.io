@@ -19,13 +19,13 @@ After that it can be opened in trace parser for analysis. Trace parser provides 
 
 That works good. But in some trouble shooting scenarios it can be usefule to search across events. In that case we can use Perfview. 
 
-## How to use PerfView 
+### How to use PerfView 
 
 We can open eny ETL in PerfView since it shares the same ETW technology with TraceParser. 
 
 Unfortunately, we cannot use stack viewer for X++ methods in this trace (you can use perfview to collect [.NET trace]({{ site.baseurl }}{% post_url 2018-11-04-Perfview-in-dyn365fo %}) ) though, but we can use this tool so see event sequence.
 
-### Opening trace
+#### Opening trace
 
 Do the following steps on a machine with Dyn365FO installed:
 
@@ -38,7 +38,7 @@ Do the following steps on a machine with Dyn365FO installed:
     - Presss Ctrl+A
 - Press F5 to refresh
 
-### Analysing trace
+#### Analysing trace
 
 ![Perfview events view](/assets/perfview-events-view.png) 
 
@@ -49,6 +49,4 @@ Do the following steps on a machine with Dyn365FO installed:
    - filtering by text (Text Filter)
    - limiting by time range (Start, End)
 3. After finding a time range where happens something that we are interested in, we can remove Text Filter and set Start and End instead. 
-4. We can also use text filter to filter by activity id (since TraceParser catches all the session on the same AOS)
-
-
+4. We can also use text filter to filter by activity id (since TraceParser catches all the session on the same AOS).
